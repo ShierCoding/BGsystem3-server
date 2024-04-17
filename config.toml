@@ -1,0 +1,6 @@
+default = "default.json"
+
+host = "localhost"
+port = 21233
+
+mode = "development"

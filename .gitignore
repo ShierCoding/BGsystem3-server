@@ -1,0 +1,6 @@
+__pycache__/
+
+/config/*
+
+!/config/default.json
+!/config/default.jpg
