@@ -25,7 +25,7 @@ async def read_item():
 @app.get("/open/timer")
 async def exec():
     os.system(
-        "start " + utils.ToAbsolutePath("../BGsystem3-timer/src-tauri/target/release/better-timer.exe"))
+        "start " + utils.ToAbsolutePath("../better-timer.exe"))
     return {"message": "success"}
 
 
