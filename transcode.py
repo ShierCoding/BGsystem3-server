@@ -65,7 +65,8 @@ def transcode():
 
         ff = ffmpy.FFmpeg(
             inputs={input_path: None},
-            outputs={output_path: "-c:v libvpx -crf 23 -b:v 0"}
+            outputs={output_path: "-c:v libvpx -crf 10 -b:v 0"},
+            executable="../ffmpeg.exe"
         )
 
         print("$", ff.cmd)
